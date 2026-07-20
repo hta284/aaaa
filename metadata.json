@@ -1,0 +1,6 @@
+{
+  "name": "Quang Hải - Thi Công Xây Dựng",
+  "description": "CÔNG TY QUANG HẢI chuyên tháo dỡ nhà, đào móng, san lấp mặt bằng, đục phá bê tông, ép cừ uy tín tại TP.HCM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
