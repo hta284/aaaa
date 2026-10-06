@@ -1,11 +1,22 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>Quang Hải - Thi Công Xây Dựng</title>
+    <meta name="description" content="CÔNG TY QUANG HẢI chuyên tháo dỡ nhà, đào móng, san lấp mặt bằng, đục phá bê tông, ép cừ uy tín tại TP.HCM." />
+    <meta property="og:title" content="Quang Hải - Thi Công Xây Dựng" />
+    <meta property="og:description" content="CÔNG TY QUANG HẢI chuyên tháo dỡ nhà, đào móng, san lấp mặt bằng, đục phá bê tông, ép cừ uy tín tại TP.HCM." />
   </head>
   <body>
+    <!-- Form ẩn để robot Netlify nhận diện khi build website React -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="tel" name="phone" />
+      <input type="text" name="service" />
+      <textarea name="message"></textarea>
+    </form>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
