@@ -148,9 +148,9 @@ export default function Contact() {
               >
                 {/* Trường ẩn phục vụ Netlify form và chống spam */}
                 <input type="hidden" name="form-name" value="contact" />
-                <p className="hidden" aria-hidden="true">
+                <p className="hidden" aria-hidden="true" style={{ display: 'none' }}>
                   <label>
-                    Đừng điền trường này: <input name="bot-field" tabIndex={-1} />
+                    Không điền ô này: <input name="bot-field" tabIndex={-1} autoComplete="off" />
                   </label>
                 </p>
 
